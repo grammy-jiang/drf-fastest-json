@@ -4,6 +4,29 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+cysimdjson = "*"
+django = "*"
+djangorestframework = "*"
+orjson = "*"
 
 [dev-packages]
+bandit = "*"
+black = "*"
+django-stubs = "*"
+djangorestframework-stubs = "*"
+ipython = "*"
+isort = "*"
+jupyter = "*"
+jupyterlab = "*"
+mypy = "*"
+pre-commit = "*"
+pylint = "*"
+pylint-django = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+pytest-xdist = "*"
+radon = "*"
+tox = "*"
+tox-pyenv = "*"
 
